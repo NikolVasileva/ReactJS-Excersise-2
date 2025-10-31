@@ -3,5 +3,6 @@
 <h3>Exercise about creating react components using html template from here -> https://templatemo.com/tm-535-softy-pinko</h3>
 
 ### Steps
-- [x] Find free HTML Template -> https://templatemo.com/tm-535-softy-pinko
-- [x] Install React App
+- [x] Find free HTML Template -> https://templatemo.com/tm-535-softy-pinko ✅
+- [x] Install react app ✅
+- [x] Cleanup default react app ✅
