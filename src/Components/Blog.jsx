@@ -2,9 +2,9 @@ import BlogItem from "./BlogItem.jsx";
 
 export default function Blog() {
     const blogItems = [
-        {title: "Vivamus ac vehicula dui", description: "Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.", buttonTitle: "Read More"},
-        {title: "Phasellus convallis augue", description: "Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.", buttonTitle: "Read More"},
-        {title: "Nam gravida purus non", description: "Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.", buttonTitle: "Read More"}
+        {img: "/assets/images/blog-item-01.png", title: "Vivamus ac vehicula dui", description: "Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.", buttonTitle: "Read More"},
+        {img: "/assets/images/blog-item-02.png", title: "Phasellus convallis augue", description: "Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.", buttonTitle: "Read More"},
+        {img: "/assets/images/blog-item-03.png", title: "Nam gravida purus non", description: "Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.", buttonTitle: "Read More"}
     ];
     return (
         <section className="section" id="blog">
@@ -22,7 +22,7 @@ export default function Blog() {
                     </div>
                 </div>
                 <div className="row">
-                    {blogItems.map(item => <BlogItem title={item.title} description={item.description} buttonTitle={item.buttonTitle}/>)}
+                    {blogItems.map(item => <BlogItem img={item.img} title={item.title} description={item.description} buttonTitle={item.buttonTitle}/>)}
                 </div>
             </div>
         </section>

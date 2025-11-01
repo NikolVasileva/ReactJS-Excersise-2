@@ -1,4 +1,5 @@
 export default function BlogItem({
+    img,
     title,
     description,
     buttonTitle
@@ -7,7 +8,7 @@ export default function BlogItem({
         <div className="col-lg-4 col-md-6 col-sm-12">
         <div className="blog-post-thumb">
             <div className="img">
-                <img src="assets/images/blog-item-01.png" alt="" />
+                <img src={img} alt="" />
             </div>
             <div className="blog-content">
                 <h3>
