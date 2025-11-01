@@ -14,3 +14,4 @@
 - [x] Creating Features and add it to App.jsx ✅
 - [x] Creating Blocks and add it to App.jsx ✅
 - [x] Creating Work Process and add it to App.jsx ✅
+- [x] Creating Testimonials and add it to App.jsx ✅
