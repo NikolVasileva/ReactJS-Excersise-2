@@ -6,4 +6,4 @@
 - [x] Find free HTML Template -> https://templatemo.com/tm-535-softy-pinko ✅
 - [x] Install react app ✅
 - [x] Cleanup default react app ✅
-- [x] Add resources from HTML Template
+- [x] Add resources from HTML Template ✅
