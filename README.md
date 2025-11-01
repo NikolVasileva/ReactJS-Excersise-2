@@ -12,3 +12,4 @@
 - [x] Creating Header component and add it to App.jsx ✅
 - [x] Creating Welcome Area and add it to App.jsx ✅
 - [x] Creating Features and add it to App.jsx ✅
+- [x] Creating Blocks and add it to App.jsx ✅
