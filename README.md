@@ -16,3 +16,4 @@
 - [x] Creating Work Process and add it to App.jsx ✅
 - [x] Creating Testimonials and add it to App.jsx ✅
 - [x] Creating Plans and add it to App.jsx ✅
+- [x] Creating Accents and add it to App.jsx ✅
