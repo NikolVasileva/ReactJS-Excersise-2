@@ -1,3 +1,5 @@
+import WorkProcessItem from "./WorkProcessItem";
+
 export default function WorkProcess() {
     return (
         <section className="mini" id="work-process">
@@ -12,48 +14,17 @@ export default function WorkProcess() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Get Ideas</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Sketch Up</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Discuss</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Revise</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Approve</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" className="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt="" /></i>
-                                <strong>Launch</strong>
-                                <span>Godard pabst prism fam cliche.</span>
-                            </a>
-                        </div>
+                        <WorkProcessItem title="Get Ideas" description="Godard pabst prism fam cliche."/>
+
+                        <WorkProcessItem title="Sketch Up" description="Godard pabst prism fam cliche."/>
+
+                        <WorkProcessItem title="Discuss" description="Godard pabst prism fam cliche."/>
+
+                        <WorkProcessItem title="Revise" description="Godard pabst prism fam cliche."/>
+
+                        <WorkProcessItem title="Approve" description="Godard pabst prism fam cliche."/>
+
+                        <WorkProcessItem title="Launch" description="Godard pabst prism fam cliche."/>
                     </div>
                 </div>
             </div>

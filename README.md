@@ -20,4 +20,5 @@
 - [x] Creating Blog and add it to App.jsx ✅
 - [x] Creating Contact Form and add it to App.jsx ✅
 - [x] Creating Footer and add it to App.jsx ✅
-- [x] Creating FeatureItem component ✅
+- [x] Creating Feature Item component ✅
+- [x] Creating Work Precess Item component - 1st option ✅
