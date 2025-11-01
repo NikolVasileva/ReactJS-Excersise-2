@@ -19,3 +19,4 @@
 - [x] Creating Accents and add it to App.jsx ✅
 - [x] Creating Blog and add it to App.jsx ✅
 - [x] Creating Contact Form and add it to App.jsx ✅
+- [x] Creating Footer and add it to App.jsx ✅
