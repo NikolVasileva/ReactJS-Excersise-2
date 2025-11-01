@@ -1,4 +1,11 @@
+import BlogItem from "./BlogItem.jsx";
+
 export default function Blog() {
+    const blogItems = [
+        {title: "Vivamus ac vehicula dui", description: "Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.", buttonTitle: "Read More"},
+        {title: "Phasellus convallis augue", description: "Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.", buttonTitle: "Read More"},
+        {title: "Nam gravida purus non", description: "Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.", buttonTitle: "Read More"}
+    ];
     return (
         <section className="section" id="blog">
             <div className="container">
@@ -15,54 +22,7 @@ export default function Blog() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-12">
-                        <div className="blog-post-thumb">
-                            <div className="img">
-                                <img src="assets/images/blog-item-01.png" alt="" />
-                            </div>
-                            <div className="blog-content">
-                                <h3>
-                                    <a href="#">Vivamus ac vehicula dui</a>
-                                </h3>
-                                <div className="text">
-                                    Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.
-                                </div>
-                                <a href="#" className="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
-                        <div className="blog-post-thumb">
-                            <div className="img">
-                                <img src="assets/images/blog-item-02.png" alt="" />
-                            </div>
-                            <div className="blog-content">
-                                <h3>
-                                    <a href="#">Phasellus convallis augue</a>
-                                </h3>
-                                <div className="text">
-                                    Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
-                                </div>
-                                <a href="#" className="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
-                        <div className="blog-post-thumb">
-                            <div className="img">
-                                <img src="assets/images/blog-item-03.png" alt="" />
-                            </div>
-                            <div className="blog-content">
-                                <h3>
-                                    <a href="#">Nam gravida purus non</a>
-                                </h3>
-                                <div className="text">
-                                    Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
-                                </div>
-                                <a href="#" className="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                    {blogItems.map(item => <BlogItem title={item.title} description={item.description} buttonTitle={item.buttonTitle}/>)}
                 </div>
             </div>
         </section>
