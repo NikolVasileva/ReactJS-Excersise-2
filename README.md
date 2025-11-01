@@ -23,3 +23,4 @@
 - [x] Creating Feature Item component ✅
 - [x] Creating Work Precess Item component - 1st option ✅
 - [x] Creating Work Precess Item component - 2nd option with array ✅
+- [x] Creating Testimonials Item component - 2nd option with array ✅

@@ -1,7 +1,7 @@
 import WorkProcessItem from "./WorkProcessItem";
 
 export default function WorkProcess() {
-    const WorkProccesItems = [
+    const workProccesItems = [
         { title: "Get Ideas", description: "Godard pabst prism fam cliche." },
         { title: "Sketch Up", description: "Godard pabst prism fam cliche." },
         { title: "Discuss", description: "Godard pabst prism fam cliche." },
@@ -23,7 +23,7 @@ export default function WorkProcess() {
                     </div>
                     <div className="row">
                         {/* With Array */}
-                        {WorkProccesItems.map(item => <WorkProcessItem key={item.title} title={item.title} description={item.description} />)}
+                        {workProccesItems.map(item => <WorkProcessItem key={item.title} title={item.title} description={item.description} />)}
 
                         {/* Props */}
                         {/* <WorkProcessItem title="Get Ideas" description="Godard pabst prism fam cliche."/>
