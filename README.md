@@ -13,3 +13,4 @@
 - [x] Creating Welcome Area and add it to App.jsx ✅
 - [x] Creating Features and add it to App.jsx ✅
 - [x] Creating Blocks and add it to App.jsx ✅
+- [x] Creating Work Process and add it to App.jsx ✅
