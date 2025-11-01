@@ -1,17 +1,12 @@
 import './App.css'
+import Preloader from './Components/Preloader.jsx'
 
 function App() {
   
   return (
     <div>
   
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div> 
+    <Preloader/>
 
 
     <header class="header-area header-sticky">
