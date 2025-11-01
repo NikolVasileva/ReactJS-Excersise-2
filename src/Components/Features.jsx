@@ -1,4 +1,4 @@
-import FeatureItem from "./FeatureItem";
+import FeatureItem from "./FeatureItem.jsx";
 
 export default function Features() {
     return (
@@ -10,7 +10,7 @@ export default function Features() {
                             <FeatureItem title="Modern Strategy" description="Customize anything in this template to fit your website needs"/>
 
                             <FeatureItem title="Best Relationship" description="Contact us immediately if you have a question in mind"/>
-                            
+
                             <FeatureItem title="Ultimate Marketing" description="You just need to tell your friends about our free templates"/>
                         </div>
                     </div>

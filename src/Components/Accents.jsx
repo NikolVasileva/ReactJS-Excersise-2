@@ -1,33 +1,18 @@
+import AccentItem from "./AccentItem.jsx"
+
 export default function Accents() {
+    const accentItems = [
+    {number: "126", title: "Projects"},
+    {number: "63", title: "Happy Clients"},
+    {number: "18", title: "Awards Wins"},
+    {number: "27", title: "Countries"}
+];
     return (
         <section className="counter">
             <div className="content">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="count-item decoration-bottom">
-                                <strong>126</strong>
-                                <span>Projects</span>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="count-item decoration-top">
-                                <strong>63</strong>
-                                <span>Happy Clients</span>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="count-item decoration-bottom">
-                                <strong>18</strong>
-                                <span>Awards Wins</span>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="count-item">
-                                <strong>27</strong>
-                                <span>Countries</span>
-                            </div>
-                        </div>
+                        {accentItems.map(item => <AccentItem key={item.title} number={item.number} title={item.title}/>)}
                     </div>
                 </div>
             </div>

@@ -27,8 +27,6 @@ function App() {
       <Blog />
       <ContactForm />
       <Footer />
-
-
     </div>
   )
 }

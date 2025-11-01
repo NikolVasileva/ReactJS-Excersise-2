@@ -1,4 +1,4 @@
-import WorkProcessItem from "./WorkProcessItem";
+import WorkProcessItem from "./WorkProcessItem.jsx";
 
 export default function WorkProcess() {
     const workProccesItems = [
