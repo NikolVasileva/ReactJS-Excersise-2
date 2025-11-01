@@ -1,6 +1,14 @@
 import WorkProcessItem from "./WorkProcessItem";
 
 export default function WorkProcess() {
+    const WorkProccesItems = [
+        { title: "Get Ideas", description: "Godard pabst prism fam cliche." },
+        { title: "Sketch Up", description: "Godard pabst prism fam cliche." },
+        { title: "Discuss", description: "Godard pabst prism fam cliche." },
+        { title: "Revise", description: "Godard pabst prism fam cliche." },
+        { title: "Approve", description: "Godard pabst prism fam cliche." },
+        { title: "Launch", description: "Godard pabst prism fam cliche." },
+    ]
     return (
         <section className="mini" id="work-process">
             <div className="mini-content">
@@ -14,7 +22,11 @@ export default function WorkProcess() {
                         </div>
                     </div>
                     <div className="row">
-                        <WorkProcessItem title="Get Ideas" description="Godard pabst prism fam cliche."/>
+                        {/* With Array */}
+                        {WorkProccesItems.map(item => <WorkProcessItem key={item.title} title={item.title} description={item.description} />)}
+
+                        {/* Props */}
+                        {/* <WorkProcessItem title="Get Ideas" description="Godard pabst prism fam cliche."/>
 
                         <WorkProcessItem title="Sketch Up" description="Godard pabst prism fam cliche."/>
 
@@ -24,7 +36,7 @@ export default function WorkProcess() {
 
                         <WorkProcessItem title="Approve" description="Godard pabst prism fam cliche."/>
 
-                        <WorkProcessItem title="Launch" description="Godard pabst prism fam cliche."/>
+                        <WorkProcessItem title="Launch" description="Godard pabst prism fam cliche."/> */}
                     </div>
                 </div>
             </div>

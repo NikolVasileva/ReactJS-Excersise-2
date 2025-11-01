@@ -22,3 +22,4 @@
 - [x] Creating Footer and add it to App.jsx ✅
 - [x] Creating Feature Item component ✅
 - [x] Creating Work Precess Item component - 1st option ✅
+- [x] Creating Work Precess Item component - 2nd option with array ✅
