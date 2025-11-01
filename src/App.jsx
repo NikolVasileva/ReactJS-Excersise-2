@@ -5,6 +5,7 @@ import Features from './Components/Features.jsx'
 import Blocks from './Components/Blocks.jsx'
 import WorkProcess from './Components/WorkProcess.jsx'
 import Testimonials from './Components/Testimonials.jsx'
+import Plans from './Components/Plans.jsx'
 
 function App() {
 
