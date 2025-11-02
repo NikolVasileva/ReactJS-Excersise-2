@@ -28,3 +28,4 @@
 - [x] Creating Blog Item component - 2nd option with array ✅
 - [x] Creating Plan Item component ✅
 - [x] Creating Block Item Left component ✅
+- [x] Creating Block Item Right component ✅
